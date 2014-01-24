@@ -118,20 +118,20 @@
 		</languageKey>
 		<languageKey index='de' type='array'>
 			<label index='no_jobs_found'>Es wurden keine Job-Angebote gefunden</label>
-			<label index='apply_header'>Zur Online-Bewerbung bitte Formular ausf&amp;uuml;llen</label>
+			<label index='apply_header'>Zur Online-Bewerbung bitte Formular ausfüllen</label>
 			<label index='apply_label'>Bewerben</label>
 			<label index='apply_link'>Online Bewerben</label>
 			<label index='fullname_label'>Ihr Name</label>
 			<label index='email_label'>Ihre E-Mail</label>
 			<label index='motivation_label'>Motivation</label>
 			<label index='apply_email_subject'>Bewerbung: </label>
-			<label index='apply_thanks'>Danke f&amp;uuml;r Ihre Bewerbung. Wir melden uns umgehend bei Ihnen.</label>
-			<label index='wrong_document_type'>Dieses Dateiformat wird nicht unterst&amp;uuml;tzt! Sie k&amp;ouml;nnen nur Textdateien mitsenden.</label>
+			<label index='apply_thanks'>Danke für Ihre Bewerbung. Wir melden uns umgehend bei Ihnen.</label>
+			<label index='wrong_document_type'>Dieses Dateiformat wird nicht unterstützt! Sie können nur Textdateien mitsenden.</label>
 			<label index='cv_label'>Ihren Lebenslauf mitsenden</label>
-			<label index='letter_label'>Ihr Schreiben mitsenden</label>
-            <label index='file_label'>Ihren Akte mitsenden</label>
+			<label index='letter_label'>Ihr Anschreiben mitsenden</label>
+			<label index='file_label'>Eine Datei mitsenden</label>
 			<label index='crdate_label'>Eingestellt am</label>
-            <label index='tstamp_label'>Modified on</label>
+			<label index='tstamp_label'>Geändert am</label>
 			<label index='reference_label'>Kennziffer</label>
 			<label index='job_title_label'>Stellenbeschreibung</label>
 			<label index='employer_label'>Arbeitgeber</label>
@@ -143,8 +143,8 @@
 			<label index='job_requirements_label'>Stellenanforderung</label>
 			<label index='job_benefits_label'>Ihre Vorteile</label>
 			<label index='apply_information_label'>Bewerbungsinformationen</label>
-			<label index='salary_label'>Verg&amp;uuml;tung</label>
-			<label index='job_type_label'>Besch&amp;auml;ftigungsart</label>
+			<label index='salary_label'>Vergütung</label>
+			<label index='job_type_label'>Beschäftigungsart</label>
 			<label index='contract_type_label'>Vertragsart</label>
 			<label index='region_label'>Gebiet/Ort</label>
 			<label index='sector_label'>Branche</label>
@@ -153,10 +153,10 @@
 			<label index='education_label'>Bildungsabschluss</label>
 			<label index='keyword_label'>Suchbegriff</label>
 			<label index='search_label'>Suchen</label>
-			<label index='reset_label'>Zur&amp;uuml;cksetzen</label>
-			<label index='backtojob'>Zur&amp;uuml;ck zur Stellenbeschreibung</label>
-			<label index='backtolist'>Zur&amp;uuml;ck zu den Stellenangeboten</label>
-			<label index='job_not_found'>Diese Stelle existiert nicht oder ist nicht mehr verf&amp;uuml;gbar.</label>
+			<label index='reset_label'>Zurücksetzen</label>
+			<label index='backtojob'>Zurück zur Stellenbeschreibung</label>
+			<label index='backtolist'>Zurück zu den Stellenangeboten</label>
+			<label index='job_not_found'>Diese Stelle existiert nicht oder ist nicht mehr verfügbar.</label>
 			<label index='wrong_display_code'>Fehler: Der angezeigte Code wurde nicht gesetzt oder wurde zu einem nicht existierenden Wert gesetzt.</label>
 			<label index='template_not_found'>Fehler: Die Template-Datei wurde nicht gefunden.</label>
 			<label index='form_select_text'>------</label>
@@ -167,7 +167,7 @@
 			<label index='link_next'>folgende Seite</label>
 			<label index='pagebrowser_header'>Stellenanzeigen ###PAGE_FROM### bis ###PAGE_TO### von ###TOTAL_JOBS###</label>
 			<label index='mail_from_name'>JobControl Bewerbung</label>
-			<label index='apply_missing_fields'>Eines oder mehrere Felder wurde(n) noch nicht ausgef&amp;uuml;llt</label>
+			<label index='apply_missing_fields'>Eines oder mehrere Felder wurde(n) noch nicht ausgefüllt</label>
 			<label index='contact_name_label'>Kontaktname</label>
 			<label index='contact_address_label'>Kontaktadresse</label>
 			<label index='contact_phone_label'>Telefon</label>
