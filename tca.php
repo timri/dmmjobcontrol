@@ -415,7 +415,7 @@ $TCA["tx_dmmjobcontrol_job"] = array (
             "config" => Array (
                 "type" => "select",
                 "foreign_table" => "tx_dmmjobcontrol_region",
-                "foreign_table_where" => "AND tx_dmmjobcontrol_region.pid=###STORAGE_PID### AND tx_dmmjobcontrol_region.sys_language_uid=CAST('###REC_FIELD_sys_language_uid###' AS UNSIGNED) ORDER BY tx_dmmjobcontrol_region.uid",
+                "foreign_table_where" => "AND tx_dmmjobcontrol_region.pid=###STORAGE_PID### AND tx_dmmjobcontrol_region.sys_language_uid IN (-1, CAST('###REC_FIELD_sys_language_uid###' AS UNSIGNED)) ORDER BY tx_dmmjobcontrol_region.uid",
                 "size" => 10,
                 "minitems" => 0,
                 "maxitems" => 100,
@@ -595,7 +595,7 @@ $TCA["tx_dmmjobcontrol_job"] = array (
             "config" => Array (
                 "type" => "select",
                 "foreign_table" => "tx_dmmjobcontrol_sector",
-                "foreign_table_where" => "AND tx_dmmjobcontrol_sector.pid=###STORAGE_PID### AND tx_dmmjobcontrol_sector.sys_language_uid=CAST('###REC_FIELD_sys_language_uid###' AS UNSIGNED) ORDER BY tx_dmmjobcontrol_sector.uid",
+                "foreign_table_where" => "AND tx_dmmjobcontrol_sector.pid=###STORAGE_PID### AND tx_dmmjobcontrol_sector.sys_language_uid IN (-1, CAST('###REC_FIELD_sys_language_uid###' AS UNSIGNED)) ORDER BY tx_dmmjobcontrol_sector.uid",
                 "size" => 10,
                 "minitems" => 0,
                 "maxitems" => 100,
@@ -641,7 +641,7 @@ $TCA["tx_dmmjobcontrol_job"] = array (
             "config" => Array (
                 "type" => "select",
                 "foreign_table" => "tx_dmmjobcontrol_category",
-                "foreign_table_where" => "AND tx_dmmjobcontrol_category.pid=###STORAGE_PID### AND tx_dmmjobcontrol_category.sys_language_uid=CAST('###REC_FIELD_sys_language_uid###' AS UNSIGNED) ORDER BY tx_dmmjobcontrol_category.uid",
+                "foreign_table_where" => "AND tx_dmmjobcontrol_category.pid=###STORAGE_PID### AND tx_dmmjobcontrol_category.sys_language_uid IN (-1, CAST('###REC_FIELD_sys_language_uid###' AS UNSIGNED)) ORDER BY tx_dmmjobcontrol_category.uid",
                 "size" => 10,
                 "minitems" => 0,
                 "maxitems" => 100,
@@ -687,7 +687,7 @@ $TCA["tx_dmmjobcontrol_job"] = array (
             "config" => Array (
                 "type" => "select",
                 "foreign_table" => "tx_dmmjobcontrol_discipline",
-                "foreign_table_where" => "AND tx_dmmjobcontrol_discipline.pid=###STORAGE_PID### AND tx_dmmjobcontrol_discipline.sys_language_uid=CAST('###REC_FIELD_sys_language_uid###' AS UNSIGNED) ORDER BY tx_dmmjobcontrol_discipline.uid",
+                "foreign_table_where" => "AND tx_dmmjobcontrol_discipline.pid=###STORAGE_PID### AND tx_dmmjobcontrol_discipline.sys_language_uid IN (-1, CAST('###REC_FIELD_sys_language_uid###' AS UNSIGNED)) ORDER BY tx_dmmjobcontrol_discipline.uid",
                 "size" => 10,
                 "minitems" => 0,
                 "maxitems" => 100,
@@ -733,7 +733,7 @@ $TCA["tx_dmmjobcontrol_job"] = array (
             "config" => Array (
                 "type" => "select",
                 "foreign_table" => "tx_dmmjobcontrol_education",
-                "foreign_table_where" => "AND tx_dmmjobcontrol_education.pid=###STORAGE_PID### AND tx_dmmjobcontrol_education.sys_language_uid=CAST('###REC_FIELD_sys_language_uid###' AS UNSIGNED) ORDER BY tx_dmmjobcontrol_education.uid",
+                "foreign_table_where" => "AND tx_dmmjobcontrol_education.pid=###STORAGE_PID### AND tx_dmmjobcontrol_education.sys_language_uid IN (-1, CAST('###REC_FIELD_sys_language_uid###' AS UNSIGNED)) ORDER BY tx_dmmjobcontrol_education.uid",
                 "size" => 10,
                 "minitems" => 0,
                 "maxitems" => 100,
